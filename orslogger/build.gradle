@@ -1,0 +1,21 @@
+plugins {
+    id 'java-library'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+dependencies {
+    compileOnly 'com.google.android:android:4.1.1.4'
+    // Remove the Media3 dependency if you're not using it
+    // implementation 'androidx.media3:media3-common:1.1.1'
+}
+
+// This is to provide a namespace for Android projects that use this library
+ext {
+    PUBLISH_GROUP_ID = 'com.example'
+    PUBLISH_ARTIFACT_ID = 'orslogger'
+    PUBLISH_VERSION = '1.0'
+}

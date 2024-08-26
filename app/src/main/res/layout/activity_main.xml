@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter log message" />
+
+    <Button
+        android:id="@+id/btnDebug"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Debug Log" />
+
+    <Button
+        android:id="@+id/btnInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Info Log" />
+
+    <Button
+        android:id="@+id/btnError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Error Log" />
+
+    <Button
+        android:id="@+id/btnWarning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Warning Log" />
+
+    <Button
+        android:id="@+id/btnVerbose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verbose Log" />
+
+</LinearLayout>
